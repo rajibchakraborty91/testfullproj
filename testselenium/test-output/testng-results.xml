@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="129" started-at="2020-06-20T13:44:26Z" finished-at="2020-06-20T13:44:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="129" started-at="2020-06-20T13:44:26Z" finished-at="2020-06-20T13:44:26Z">
+      <class name="org.testselenium.testselenium.test1">
+        <test-method status="PASS" signature="sysomethod()[pri:0, instance:org.testselenium.testselenium.test1@3f49dace]" name="sysomethod" duration-ms="34" started-at="2020-06-20T19:14:26Z" finished-at="2020-06-20T19:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysomethod -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:org.testselenium.testselenium.test1@3f49dace]" name="logout" duration-ms="13" started-at="2020-06-20T19:14:26Z" depends-on-methods="org.testselenium.testselenium.test1.sysomethod" finished-at="2020-06-20T19:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- org.testselenium.testselenium.test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
